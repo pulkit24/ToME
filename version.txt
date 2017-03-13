@@ -1,1 +1,1 @@
-0.8.1,"https://github.com/pulkit24/ToME/blob/master/upgrades/Tales%20of%20Middle-Earth%20Setup%200.8.1.exe?raw=true"
+0.8.1,"http://rawgithub.com/pulkit24/ToME/blob/master/upgrades/Tales%20of%20Middle-Earth%20Setup%200.8.1.exe"
