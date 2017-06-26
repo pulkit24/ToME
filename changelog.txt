@@ -1,15 +1,14 @@
 What's new?
 
-- Revamped civ bonuses
-- New graphics
-- Testing testing.
-
-Changelog v0.9
-- sdfds
-- sdfsdf
-- sdfsdf
-
-Changelog v0.8
-- sfddsf
-- sdfsdf
-- sdfdsfs
+• All new Rohan/Rhovanion buildings
+• All new Harad buildings
+• All new Rhun buildings
+• All new Rivendell buildings
+• Additional variations for some civs buildings
+• Dozens of new units, as well as over a hundred new unit graphics.
+• Individual graphics for each unit line based on race or civ.
+• Heroes, new technologies, and super units at the wonder.
+• All terrains, cliffs, and forests are new.
+• Over a hundred new editor objects/buildings/units.
+• New gameplay features like dwarven mines and tax collectors
+• In depth balance changes and revamped technologies based on beta release feedback.
