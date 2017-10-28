@@ -1,3 +1,8 @@
+Version 0.8.7 - Hotfix
+	• XML corrected for Arnor, Mordor, Angmar & Isengard.
+	• History section prepared, ready for articles.
+	• Tech Tree rendering improved.
+
 Version 0.8.6 - Hotfix
 	• Tech Trees are now working again.
 
