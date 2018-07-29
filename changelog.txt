@@ -1,3 +1,6 @@
+Version 0.8.9 - Pre-release Candidate
+	• Moved to ModDB.
+
 Version 0.8.8 - Pre-release Candidate
 	• Several Random Map scripts improved.
 	• Upgrade to Great Years bug fixed.
