@@ -1,3 +1,6 @@
+Version 0.8.10 - Hotfix
+	• Some people receive Tech Tree error on new games.
+
 Version 0.8.9 - Pre-release Candidate
 	• Moved to ModDB.
 
