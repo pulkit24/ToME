@@ -1,3 +1,9 @@
+Version 0.8.8 - Pre-release Candidate
+	• Several Random Map scripts improved.
+	• Upgrade to Great Years bug fixed.
+	• Shadows for ships and several buildings fixed.
+	• Prep work for moving new setup file to ModDb. 
+
 Version 0.8.7 - Hotfix
 	• XML corrected for Arnor, Mordor, Angmar & Isengard.
 	• History section prepared, ready for articles.
