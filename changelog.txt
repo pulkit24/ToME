@@ -1,33 +1,39 @@
+Version 0.8.11 - Hotfix
+	- Standard AI now upgrades standard units.
+	- Ox no longer disappears after hunting.
+	- Heroes now have names and descriptions.
+	- Heroes can no longer be created more than once.
+
 Version 0.8.10 - Hotfix
-	• Some people receive Tech Tree error on new games.
+	- Some people receive Tech Tree error on new games.
 
 Version 0.8.9 - Pre-release Candidate
-	• Moved to ModDB.
+	- Moved to ModDB.
 
 Version 0.8.8 - Pre-release Candidate
-	• Several Random Map scripts improved.
-	• Upgrade to Great Years bug fixed.
-	• Shadows for ships and several buildings fixed.
-	• Prep work for moving new setup file to ModDb. 
+	- Several Random Map scripts improved.
+	- Upgrade to Great Years bug fixed.
+	- Shadows for ships and several buildings fixed.
+	- Prep work for moving new setup file to ModDb. 
 
 Version 0.8.7 - Hotfix
-	• XML corrected for Arnor, Mordor, Angmar & Isengard.
-	• History section prepared, ready for articles.
-	• Tech Tree rendering improved.
+	- XML corrected for Arnor, Mordor, Angmar & Isengard.
+	- History section prepared, ready for articles.
+	- Tech Tree rendering improved.
 
 Version 0.8.6 - Hotfix
-	• Tech Trees are now working again.
+	- Tech Trees are now working again.
 
 Version 0.8 - Pre-release Candidate
-	• All new Rohan/Rhovanion buildings
-	• All new Harad buildings
-	• All new Rhun buildings
-	• All new Rivendell buildings
-	• Additional variations for some civs buildings
-	• Dozens of new units, as well as over a hundred new unit graphics.
-	• Individual graphics for each unit line based on race or civ.
-	• Heroes, new technologies, and super units at the wonder.
-	• All terrains, cliffs, and forests are new.
-	• Over a hundred new editor objects/buildings/units.
-	• New gameplay features like dwarven mines and tax collectors
-	• In depth balance changes and revamped technologies based on beta release feedback.
+	- All new Rohan/Rhovanion buildings
+	- All new Harad buildings
+	- All new Rhun buildings
+	- All new Rivendell buildings
+	- Additional variations for some civs buildings
+	- Dozens of new units, as well as over a hundred new unit graphics.
+	- Individual graphics for each unit line based on race or civ.
+	- Heroes, new technologies, and super units at the wonder.
+	- All terrains, cliffs, and forests are new.
+	- Over a hundred new editor objects/buildings/units.
+	- New gameplay features like dwarven mines and tax collectors
+	- In depth balance changes and revamped technologies based on beta release feedback.
