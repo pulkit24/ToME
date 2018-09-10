@@ -1,4 +1,4 @@
-Version 0.8.11 - Hotfix
+Version 0.8.11/0.8.12 - Hotfix
 	- Standard AI now upgrades standard units.
 	- Ox no longer disappears after hunting.
 	- Heroes now have names and descriptions.
