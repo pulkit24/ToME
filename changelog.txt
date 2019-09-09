@@ -1,5 +1,95 @@
-Version 0.8.13 - Hotfix
-	- Tech tree error on launch.
+Version 0.9 - Major update
+    Generic changes:
+        - Game version has been updated to UserPatch 1.5.
+        - Numerous fixes for unit stats and graphics, bonus and technology effects, training buttons and hotkeys, custom random map generation.
+        - New ingame music added.
+        - Added Snaga Sentries in second age.
+        - Added several new unique technologies: Ironmongery (Numenor), Cavernous Halls (Mirkwood), Bombard Shot (Isengard), Deeping Wall (Rohan).
+        - Added Picket Gate into the game, available to all countries.
+        - Wonders take 3,500 seconds to construct back from 200.
+        - Archer line and Orc Archer line HP increase is now +5 per upgrade level rather than +10.
+        - Longbow Cuthalions +1 range.
+        - Orc Archer line -1 attack.
+        - Mounted archer HP reduced from 80 to 70.
+        - Feredir HP reduced from 100 to 80.
+        - Spearmen and Orc Sentry line given +2/4/5 bonus vs beasts.
+        - Anti-cav bonus of Orc Chieftans reduced (25 -> 12).
+        - King's Men and Rhudaur base unit stats have been reduced, can be upgraded by the standard unit upgrades.
+        - Base HP of scouts reduced to 45 (from 70), Errand-riders - to 70 (from 90), Vanguards - to 95 (from 110).
+        - Wargs, White Wolves and Wolf-riders attack vs infantry changed to +5.
+        - Dragon and Winged Nâzgul prices increased substantially.
+        - Morgûl engine now shoots bodies (skeletons).
+        - Winged Nazgul/Khamul the Easterling pierce armor reduced from 180 to 6.
+        - Balchoth Raider CA armor reduced to 0.
+        - Poison Tip techs can now be researched only in War Hall.
+        - Poison Tip affects cavalry archer class units as well now.
+        - Flaming Arrows research moved back to Great Years.
+        - Old packable trebuchets are brought back, same enabling conditions as field trebuchets have now.
+        - Rams do not get increased melee armor and ram armor with upgrades.
+        - Villagers +3 vs rams (to give the same effect as -3 melee armor of rams in vanilla).
+        - Barrel Docking now makes Trade Cogs carry +10% gold.
+        - Incendiaries effect now gives 100% accuracy to affected units so the blast radius could work, blast radius bonus reduced to +0.5.
+        - Dragon/Smaug pierce armor reduced from 180 to 8.
+        - Old forest tree wood amount raised to 300.
+        - Numerous new heroes added for scenario editor.
+
+    Civ-specific:
+        - Mirkwood: foragers only 25% faster instead of 50%.
+        - Trade Routes effect changed to +60%.
+        - Maethor HP reduced from 50 to 40.
+        - Taur Maethor HP reduced from 65 to 45.
+        - Lindon: Restored elite unique unit upgrade.
+        - Lindon: extra armor from the scout bonus is given only to Errand-riders and Vanguards.
+        - Aithran is no longer affected by Aeglos.
+        - Lothlorien: archer bonus changed to +1 range in third age, +1 attack in great years.
+        - Forest Warden HP reduced from 55 to 45.
+        - Marchwarden HP reduced from 70 to 50.
+        - Arnor: shepherds only 25% faster instead of 50%.
+        - Gondor: trade cog bonus changed to +10%.
+        - Numenor: 25% faster lumberjacks -> 15%.
+        - Numenor: receives Cram.
+        - King's Archers -5 HP.
+        - Marshall of the Mark -0.5 blast radius.
+        - Rhovanion: Poison Tip is no longer available.
+        - Rhovanion: all villagers move 10% faster instead of the current lumberjack and hunter bonus.
+        - Brigand HP reduced from 75 to 60.
+        - Horselords -1 attack, HP reduced from 95 to 75.
+        - Isengard: receives access to Orc Hall units and techs now; regular skirmishers and spearmen get disabled in Third age.
+        - Base armors of Mumaks reduced to 1/4.
+        - Mumak cavalry armor reduced to 0.
+        - Mumaks no longer have cavalry archer armor class (used to have 15 CA armor).
+        - Armored Mumak armor boost reduced from +5/5 to +2/2.
+        - Composite Bow attack boost reduced from +2 to +1.
+        - Wainrider and Armored Wainrider reload time increased to 2.5, CA armor reduced to 0, bonuses vs cavalry and CA removed.
+        - Wainrider attack reduced from 7 tp 5, bonus vs archers/spearmen changed from 5/5 to 4/3.
+        - Armored Wainrider attack reduced from 9 tp 6, bonus vs archers/spearmen changed from 10/5 to 6/3.
+        - Mordor: -33% villager cost -> -10%.
+        - Mordor: +25% farmer and fisher speed -> +10%.
+        - Mordor: receives Cram.
+        - Mordor: receives access to Wargs.
+        - Dol Guldur: can build stables now; receives access to scouts, wargs and the first cavalry armor.
+        - Dol Guldur: advancements to next ages cost -15% instead of the current bonus.
+        - Spiderling and Great spider attack increased.
+        - Angmar: receives access to Wargs, White Wolf is a unique upgrade to Wargs now.
+        - White Wolves +30 HP, +2 melee attack.
+        - Minas Morgul: tower/castle bonus changed to +5 garrison space, +5 maximum arrows.
+        - Minas Morgul: receives access to Wargs.
+        - Ring forging and Kings among Men UTs have age and cost swapped, stone cost of Ring Forging is replaced with food cost.
+        - Ringwraiths now cost 60G instead of 100G; Black Riders cost 120G instead of 200G.
+
+    Technical changes (information for AI scripters):
+        - Changed IDs of some units to resolve certain hardcoded problems and to make these units fit the existing unit lines better:
+            Balchoth Raider -> 30
+            Helminga -> 31
+            Roquentars -> 46, 557 (janissary-line)
+            Warg/White Wolf -> 329, 330 (camel-line)
+            Nazguls -> 700, 577 (old warg IDs)
+            Hill/Mountain Troll -> 831, 832 (turtle-ship-line)
+            Dromund -> 250 (longboat)
+            Corsair Carrack -> 535
+            Orc archers -> 890, 891, 892
+            Black Orc -> 893
+
 
 Version 0.8.11/0.8.12 - Hotfix
 	- Standard AI now upgrades standard units.
@@ -7,11 +97,14 @@ Version 0.8.11/0.8.12 - Hotfix
 	- Heroes now have names and descriptions.
 	- Heroes can no longer be created more than once.
 
+
 Version 0.8.10 - Hotfix
 	- Some people receive Tech Tree error on new games.
 
+
 Version 0.8.9 - Pre-release Candidate
 	- Moved to ModDB.
+
 
 Version 0.8.8 - Pre-release Candidate
 	- Several Random Map scripts improved.
@@ -19,13 +112,16 @@ Version 0.8.8 - Pre-release Candidate
 	- Shadows for ships and several buildings fixed.
 	- Prep work for moving new setup file to ModDb. 
 
+
 Version 0.8.7 - Hotfix
 	- XML corrected for Arnor, Mordor, Angmar & Isengard.
 	- History section prepared, ready for articles.
 	- Tech Tree rendering improved.
 
+
 Version 0.8.6 - Hotfix
 	- Tech Trees are now working again.
+
 
 Version 0.8 - Pre-release Candidate
 	- All new Rohan/Rhovanion buildings
