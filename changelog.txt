@@ -1,3 +1,8 @@
+Version 0.9.1 - Hot Fix
+    - Fixes missing snow terrain.
+    - Fixes missing new music tracks.
+
+
 Version 0.9 - Major update
     Generic changes:
         - Game version has been updated to UserPatch 1.5.
